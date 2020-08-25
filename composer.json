@@ -1,0 +1,29 @@
+{
+    "name": "virals-huylt/country-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Huylt",
+            "email": "huylt@viralsoft.com"
+        }
+    ],
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "require": {
+        "laraviet/core-module": "dev-master",
+        "stidges/laravel-country-flags": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Country\\": ""
+        }
+    },
+    "type": "laravel-module"
+}
